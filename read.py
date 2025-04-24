@@ -1,10 +1,14 @@
 import cv2 as cv
 
-# img = cv.imread("photos/cat.jpeg")
+# reading images
 
-# cv.imshow("Cat", img)
+img = cv.imread("photos/cat.jpeg")
 
-# cv.waitKey(0)
+cv.imshow("Cat", img)
+
+cv.waitKey(0)
+
+# reading videos
 
 capture = cv.VideoCapture("videos/sea_coast.mp4")
 
